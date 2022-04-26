@@ -1,11 +1,14 @@
 import { AppBar, Toolbar, IconButton, Typography } from "@mui/material";
-
+import { TextField } from "@mui/material";
+import { Button } from "@mui/material";
 const Forms = () => {
   return (
     <div>
       <h2>SDJD</h2>
-      <input placeholder="E-mail"></input>
-      <button>Inscrever</button>
+      <TextField id="outlined-basic" label="E-mail" variant="outlined" />
+      <Button variant="contained" size="large">
+          Inscrever
+        </Button>
       <AppBar position="static">
         <Toolbar variant="dense">
           <IconButton
@@ -21,6 +24,7 @@ const Forms = () => {
           </Typography>
         </Toolbar>
       </AppBar>
+      
     </div>
   );
 };
