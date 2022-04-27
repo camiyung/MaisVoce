@@ -79,8 +79,6 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   justifyContent: 'flex-end',
 }));
 
-// Barra de search
-
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -123,8 +121,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-// FIM DA BARRA DE SEARCH
-
 export default function PersistentDrawerLeft() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -143,7 +139,7 @@ export default function PersistentDrawerLeft() {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar position="fixed" open={open}>
-        <Toolbar>
+        <Toolbar className='menu-barra'>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -154,17 +150,19 @@ export default function PersistentDrawerLeft() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Persistent drawer
+            MaisVocê
           </Typography>
-          <Search  className='procurar'>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Procurar..."
-              inputProps={{ 'aria-label': 'search' }}
-            />
+          {/* <div className='campo-busca'> */}
+            <Search >
+              <SearchIconWrapper>
+                <SearchIcon />
+              </SearchIconWrapper>
+              <StyledInputBase
+                placeholder="Procurar..."
+                inputProps={{ 'aria-label': 'search' }}
+              />
           </Search>
+          {/* </div> */}
         </Toolbar>
       </AppBar>
       <Drawer
@@ -197,11 +195,11 @@ export default function PersistentDrawerLeft() {
           ))}
         </List>
       </Drawer>
-      <Main open={open}>
+      {/* <Main open={open}> */}
         <DrawerHeader />
-        <Typography paragraph></Typography>
-        <Typography paragraph></Typography>
-      </Main>
+        {/* <Typography paragraph></Typography> */}
+        {/* <Typography paragraph></Typography> */}
+      {/* </Main> */}
     </Box>
   );
 }

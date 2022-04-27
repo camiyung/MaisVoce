@@ -1,3 +1,15 @@
 .procurar {
     /* margin-left: 50%; */
+    /* justify-items: flex-end; */
+    /* padding-left: 5em; */
+}
+
+/* .menu-barra {
+    justify-content: space-evenly;
+    gap: 30%;
+} */
+
+.campo-busca {
+    position: absolute;
+    margin-left: 80vw;
 }
