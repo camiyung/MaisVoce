@@ -7,6 +7,7 @@
 .menu-barra {
     justify-content: space-evenly;
     gap: 30%;
+    height: 80px;
 }
 
 /* .campo-busca {

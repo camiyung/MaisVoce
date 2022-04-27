@@ -149,7 +149,7 @@ export default function PersistentDrawerLeft() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          <Typography variant="h4" noWrap component="div">
             MaisVocê
           </Typography>
           {/* <div className='campo-busca'> */}
