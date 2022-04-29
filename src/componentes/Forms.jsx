@@ -10,8 +10,8 @@ import "./estilos/Forms.css";
 const Forms = () => {
   return (
     <div >
-      <Typography variant="h4" align="center" mb={3} mt={2}>
-        Assinnante do MaisVocê receba receitas diariamente e promoçoes exclusiva.
+      <Typography variant="h4" align="center" mb={8} mt={2} marginLeft="7em" marginRight="7em"> 
+        Assinante do MaisVocê recebe receitas diariamente e promoçoes exclusivas.
       </Typography>
       <div class="formulario">
         <TextField
@@ -20,12 +20,12 @@ const Forms = () => {
           variant="outlined"
           size="small"
         />
-        <Button variant="contained" size="large">
+        <Button variant="contained" size="20px">
           Inscrever
         </Button>
       </div>
 
-      <AppBar position="static">
+      <AppBar position="static" style={{marginTop: '80px'}}>
         <Toolbar className="rodape" variant="dense">
           <Typography
             className="rodape-esquerdo"
