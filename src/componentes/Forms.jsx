@@ -7,12 +7,15 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 import "./estilos/Forms.css";
-const Forms = () => {
+const Forms = (props) => {
   return (
     <div >
-      <Typography variant="h4" align="center" mb={8} mt={2} marginLeft="7em" marginRight="7em"> 
-        Assinante do MaisVocê recebe receitas diariamente e promoçoes exclusivas.
+      <Typography variant="h4" align="center" marginLeft={"20%"} marginRight={"20%"}> 
+        Assinante do MaisVocê recebe receitas diariamente e promoções exclusivas
       </Typography>
+      <div class="louro-jose">
+          <img  src={props.img} alt="louro.logo" />
+      </div>
       <div class="formulario">
         <TextField
           id="outlined-basic"
@@ -21,7 +24,7 @@ const Forms = () => {
           size="small"
         />
         <Button variant="contained" size="20px">
-          Inscrever
+          Assinar
         </Button>
       </div>
 
