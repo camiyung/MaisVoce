@@ -30,30 +30,9 @@ import PeopleIcon from '@mui/icons-material/People';
 import InfoIcon from '@mui/icons-material/Info';
 import ForumIcon from '@mui/icons-material/Forum';
 import CampaignIcon from '@mui/icons-material/Campaign';
-// import { Stack } from '@mui/material';
-// import Paper from '@mui/material/Paper';
 
 
 const drawerWidth = 240;
-
-// const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
-//   ({ theme, open }) => ({
-//     flexGrow: 1,
-//     padding: theme.spacing(3),
-//     transition: theme.transitions.create('margin', {
-//       easing: theme.transitions.easing.sharp,
-//       duration: theme.transitions.duration.leavingScreen,
-//     }),
-//     marginLeft: `-${drawerWidth}px`,
-//     ...(open && {
-//       transition: theme.transitions.create('margin', {
-//         easing: theme.transitions.easing.easeOut,
-//         duration: theme.transitions.duration.enteringScreen,
-//       }),
-//       marginLeft: 0,
-//     }),
-//   }),
-// );
 
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== 'open',
@@ -123,13 +102,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-// const Item = styled(Paper)(({ theme }) => ({
-//   backgroundColor: '#1976d2',
-//   ...theme.typography.body2,
-//   padding: theme.spacing(1),
-//   textAlign: 'center',
-//   color: 'white',
-// }));
 
 export default function PersistentDrawerLeft({imagem}) {
   const theme = useTheme();
@@ -159,18 +131,9 @@ export default function PersistentDrawerLeft({imagem}) {
           >
             <MenuIcon />
           </IconButton>
-          {/* <Stack
-            direction='row'
-            // divider={<Divider orientation='vertical' flexItem />}
-            spacing={1}
-            alignItems='center'
-          > */}
-            {/* <img src={imagem} alt="louro josé desenhado" className='logo'/> */}
             <Typography variant="h5" noWrap component="div">
               MaisVocê
             </Typography>
-          {/* </Stack> */}
-          <div className='campo-busca'>
             <Search >
               <SearchIconWrapper>
                 <SearchIcon />
@@ -180,7 +143,6 @@ export default function PersistentDrawerLeft({imagem}) {
                 inputProps={{ 'aria-label': 'search' }}
               />
           </Search>
-          </div>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -213,11 +175,7 @@ export default function PersistentDrawerLeft({imagem}) {
           ))}
         </List>
       </Drawer>
-      {/* <Main open={open}> */}
         <DrawerHeader />
-        {/* <Typography paragraph></Typography> */}
-        {/* <Typography paragraph></Typography> */}
-      {/* </Main> */}
     </Box>
   );
 }
