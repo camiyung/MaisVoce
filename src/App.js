@@ -1,10 +1,12 @@
 import './App.css';
-import FirstComponent from './componentes/Carrossel';
+import Slider from './componentes/Slider/Slider'
 
 
 function App() {
-  return(
-    <FirstComponent />
+  return (
+    <>
+      <Slider />
+    </>
   );
 }
 
