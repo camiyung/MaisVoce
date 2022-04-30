@@ -37,7 +37,7 @@ Por último, fizemos o deploy usando ........
 
 ### Deploy do projeto
 
-[!Acesse nossa Landing Page aqui]()
+[Acesse nossa Landing Page aqui](http://maisvocereceitas.surge.sh)
 
 ### Equipe Whey Protech
 

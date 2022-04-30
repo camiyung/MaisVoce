@@ -16,8 +16,12 @@ function App() {
         <Typography variant="h4" textAlign={'center'} mt={1} mb={10}>Receitas e Análises de pratos</Typography>
       </Container>
       <Slider />
-      <ReceitaCard
-      />
+      <Container style={{marginTop: '5em'}} >
+        <Typography variant="h4" textAlign={'center'} mb={5} >
+          Confira nossas receitas!
+        </Typography>
+        <ReceitaCard />
+      </Container>
       <Forms img={louroJose} />
     </>
   );

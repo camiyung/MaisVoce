@@ -13,7 +13,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 const ReceitaCard = () => {
     return (
         <Container maxWidth="sm">
-            <Card sx={{ maxWidth: 500 }} >
+            <Card sx={{ maxWidth: 500 , marginBottom: '1em'}} >
                 <CardHeader
                     title="Paella"
                 />
@@ -44,7 +44,7 @@ const ReceitaCard = () => {
                     </Typography>
                 </CardContent>
             </Card>
-            <Card sx={{ maxWidth: 500 }} >
+            <Card sx={{ maxWidth: 500 , marginBottom: '1em'}} >
                 <CardHeader
                     title="Massa farfalle ao pesto"
                 />
@@ -73,7 +73,7 @@ const ReceitaCard = () => {
                     </Typography>
                 </CardContent>
             </Card>
-            <Card sx={{ maxWidth: 500 }} >
+            <Card sx={{ maxWidth: 500 , marginBottom: '1em'}} >
                 <CardHeader
                     title="Guacamole"
 
@@ -102,7 +102,7 @@ const ReceitaCard = () => {
                     </Typography>
                 </CardContent>
             </Card>
-            <Card sx={{ maxWidth: 500 }} >
+            <Card sx={{ maxWidth: 500 , marginBottom: '1em'}} >
                 <CardHeader
                     title="Torta de morango"
 
