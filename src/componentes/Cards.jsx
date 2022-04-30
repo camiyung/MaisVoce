@@ -4,15 +4,13 @@ import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import Avatar from '@mui/material/Avatar';
-import { pink } from '@mui/material/colors';
 import Container from '@mui/material/Container';
 import CardActions from '@mui/material/CardActions';
 import IconButton from '@mui/material/IconButton';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 
-const ReceitaCard = (props) => {
+const ReceitaCard = () => {
     return (
         <Container maxWidth="sm">
             <Card sx={{ maxWidth: 500 }} >
