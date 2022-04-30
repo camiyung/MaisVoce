@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+![louro-jose](https://user-images.githubusercontent.com/35999071/165995769-a728c062-cb7f-4097-bac9-52c6d55decb6.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MaisVocê Receitas (Landing Page)
 
-## Available Scripts
+## Descrição do projeto
 
-In the project directory, you can run:
+Fomos procurados por um grupo de pequenos empresários vende pratos no Ifood e estão fazendo sucesso. Eles gostariam de expandir o negócio e criar uma página para estreitar o relacionamento com os clientes, compartilhando receitas e reviews para que mais pessoas conheçam a história da empresa e os pratos.
 
-### `npm start`
+Dito isso, ficamos responsáveis pela criação de uma Landing Page com 3 sessões, responsiva, e que tenha um formulário de cadastro para a newsletter do negócio. Acreditamos que uma página desse tipo tem o potencial de alavancar o negócio dos nossos clientes!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Foi requerido:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [X] Header
+- [X] Menu (com 9 links e um campo de busca)
+- [X] 3 sessões
+- [X] Footer com redes sociais
+- [X] Responsividade
 
-### `npm test`
+### ⚙️ Tecnologias usadas
+[![HTML 5](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/Guide/HTML/HTML5/) [![CSS 3](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Nosso processo de criação:
 
-### `npm run build`
+Antes de mais nada, definimos que, diferentemente dos processos de criação anteriores, não usaríamos o Figma. Ao invés disso, escolheríamos um site para usar como inspiração (que foi o [!Receitas Globo](https://receitas.globo.com/)).
+Dividimos as sessões entre as pessoas do grupo e deixamos que cada um explorasse a criatividade para criar suas sessões. A divisão se deu da seguinte forma:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Pessoa  | Sessão(ões)         |
+|---------|---------------------|
+| Gariba  | Header e Menu       |
+| Camila  | Slides              |
+| Wanuzia | Cards de receitas   |
+| Carlos  | Formulário e footer |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usamos constantemente, no período de desenvolvimento, o git e o github para distribuirmos informações e arquivos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Por último, fizemos o deploy usando ........
 
-### `npm run eject`
+### Deploy do projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[!Acesse nossa Landing Page aqui]()
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Equipe Whey Protech
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p><a href="https://github.com/camiyung">Camila (@camiyung)</a></p>
+<p><a href="https://github.com/Carlos-Jr1">Carlos (@Carlos-Jr1)</a></p>
+<p><a href="https://github.com/Wanuzia">Wanuzia (@Wanuzia)</a></p>
+<p><a href="https://github.com/o-gariba">Pedro (@o-gariba)</a></p>
