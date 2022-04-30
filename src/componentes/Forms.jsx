@@ -10,7 +10,7 @@ import "./estilos/Forms.css";
 const Forms = (props) => {
   return (
     <div >
-      <Typography variant="h4" align="center" marginLeft={"20%"} marginRight={"20%"}> 
+      <Typography variant="h4" align="center" marginLeft={"20%"} marginRight={"20%"} marginTop={'2em'}> 
         Assinante do MaisVocê recebe receitas diariamente e promoções exclusivas
       </Typography>
       <div class="louro-jose">
